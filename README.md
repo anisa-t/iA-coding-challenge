@@ -19,18 +19,18 @@ Technologies Used:
 * Node.js
 
 *  HOW TO RUN THE PROJECT 
-   node ordersWithInstructions.js
+ >> node ordersWithInstructions.js
 
+      Input: 
+           "Rx1:MedicationX;Rx2:MedicationY;Rx3:MedicationZ;Rx4:MedicationA",
+           "MedicationA:1,2,3;MedicationX:1,2;MedicationY:0;MedicationZ:2;"
 
-Input:   
-  "Rx1:MedicationX;Rx2:MedicationY;Rx3:MedicationZ;Rx4:MedicationA",
-  "MedicationA:1,2,3;MedicationX:1,2;MedicationY:0;MedicationZ:2
+      OutPut:
+            Rx1:MedicationX:WARNING-Do not shake, Keep refrigerated
+            Rx2:MedicationY:
+            Rx3:MedicationZ:WARNING-Keep refrigerated
+            Rx4:MedicationA:WARNING!!!-Do not shake, Keep refrigerated, Keep away from heat
 
-Output:
-Rx1:MedicationX:WARNING-Do not shake, Keep refrigerated
-Rx2:MedicationY:
-Rx3:MedicationZ:WARNING-Keep refrigerated
-Rx4:MedicationA:WARNING!!!-Do not shake, Keep refrigerated, Keep away from heat
 
 Other Use Cases:
  * 1 - if instruction value has more then 2 characters 
