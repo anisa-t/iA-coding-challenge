@@ -1,4 +1,4 @@
- iA-coding-challenge# iA Coding Challenge
+ iA-coding-challenge
  
  Scenario:
 
@@ -18,8 +18,8 @@ Technologies Used:
 
 * Node.js
 
-* * * * * * HOW TO RUN THE PROJECT 
-     >>>> node ordersWithInstructions.js
+*  HOW TO RUN THE PROJECT 
+   node ordersWithInstructions.js
 
 
 Input:   
@@ -33,7 +33,8 @@ Rx3:MedicationZ:WARNING-Keep refrigerated
 Rx4:MedicationA:WARNING!!!-Do not shake, Keep refrigerated, Keep away from heat
 
 Other Use Cases:
- * 1 - if instruction ID has more then 2 characters 
+ * 1 - if instruction value has more then 2 characters 
+
        Input: 
            "Rx1:MedicationX;Rx2:MedicationY;Rx3:MedicationZ;Rx4:MedicationA",
            "MedicationA:1,2,3;MedicationX:1,2;MedicationY:0;MedicationZ:22;"
@@ -45,7 +46,7 @@ Other Use Cases:
             Rx4:MedicationA:WARNING!!!-Do not shake, Keep refrigerated, Keep away from heat
 
 
- * 2 - if instruction is a char not a number 
+ * 2 - if instruction value is a char not a number 
 
         Input: 
            "Rx1:MedicationX;Rx2:MedicationY;Rx3:MedicationZ;Rx4:MedicationA",
